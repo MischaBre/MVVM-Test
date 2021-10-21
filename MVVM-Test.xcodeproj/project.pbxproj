@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		B15272732721F798004A9666 /* MVVM_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15272722721F798004A9666 /* MVVM_TestApp.swift */; };
-		B15272752721F798004A9666 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15272742721F798004A9666 /* ContentView.swift */; };
 		B15272772721F79A004A9666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15272762721F79A004A9666 /* Assets.xcassets */; };
 		B152727A2721F79A004A9666 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15272792721F79A004A9666 /* Preview Assets.xcassets */; };
 		B15272842721F79A004A9666 /* MVVM_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15272832721F79A004A9666 /* MVVM_TestTests.swift */; };
 		B152728E2721F79A004A9666 /* MVVM_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B152728D2721F79A004A9666 /* MVVM_TestUITests.swift */; };
 		B15272902721F79A004A9666 /* MVVM_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B152728F2721F79A004A9666 /* MVVM_TestUITestsLaunchTests.swift */; };
+		B152729D2721F915004A9666 /* BreweryStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B152729C2721F915004A9666 /* BreweryStruct.swift */; };
+		B15272A12721F9BB004A9666 /* BreweriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15272A02721F9BB004A9666 /* BreweriesView.swift */; };
+		B15272A32721FCE0004A9666 /* BreweryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15272A22721FCE0004A9666 /* BreweryView.swift */; };
+		B15272A62721FE38004A9666 /* BreweriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15272A52721FE38004A9666 /* BreweriesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		B152726F2721F798004A9666 /* MVVM-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15272722721F798004A9666 /* MVVM_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_TestApp.swift; sourceTree = "<group>"; };
-		B15272742721F798004A9666 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B15272762721F79A004A9666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B15272792721F79A004A9666 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B152727F2721F79A004A9666 /* MVVM-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,10 @@
 		B15272892721F79A004A9666 /* MVVM-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B152728D2721F79A004A9666 /* MVVM_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_TestUITests.swift; sourceTree = "<group>"; };
 		B152728F2721F79A004A9666 /* MVVM_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B152729C2721F915004A9666 /* BreweryStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryStruct.swift; sourceTree = "<group>"; };
+		B15272A02721F9BB004A9666 /* BreweriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweriesView.swift; sourceTree = "<group>"; };
+		B15272A22721FCE0004A9666 /* BreweryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryView.swift; sourceTree = "<group>"; };
+		B15272A52721FE38004A9666 /* BreweriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweriesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,10 @@
 		B15272712721F798004A9666 /* MVVM-Test */ = {
 			isa = PBXGroup;
 			children = (
+				B15272A42721FE21004A9666 /* ViewModel */,
+				B152729F2721F986004A9666 /* Views */,
+				B152729E2721F91C004A9666 /* Class */,
 				B15272722721F798004A9666 /* MVVM_TestApp.swift */,
-				B15272742721F798004A9666 /* ContentView.swift */,
 				B15272762721F79A004A9666 /* Assets.xcassets */,
 				B15272782721F79A004A9666 /* Preview Content */,
 			);
@@ -125,6 +133,31 @@
 				B152728F2721F79A004A9666 /* MVVM_TestUITestsLaunchTests.swift */,
 			);
 			path = "MVVM-TestUITests";
+			sourceTree = "<group>";
+		};
+		B152729E2721F91C004A9666 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B152729C2721F915004A9666 /* BreweryStruct.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		B152729F2721F986004A9666 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B15272A02721F9BB004A9666 /* BreweriesView.swift */,
+				B15272A22721FCE0004A9666 /* BreweryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B15272A42721FE21004A9666 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B15272A52721FE38004A9666 /* BreweriesViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B15272752721F798004A9666 /* ContentView.swift in Sources */,
+				B152729D2721F915004A9666 /* BreweryStruct.swift in Sources */,
 				B15272732721F798004A9666 /* MVVM_TestApp.swift in Sources */,
+				B15272A62721FE38004A9666 /* BreweriesViewModel.swift in Sources */,
+				B15272A12721F9BB004A9666 /* BreweriesView.swift in Sources */,
+				B15272A32721FCE0004A9666 /* BreweryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
