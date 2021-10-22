@@ -17,7 +17,7 @@
 		B15272A12721F9BB004A9666 /* BreweriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15272A02721F9BB004A9666 /* BreweriesView.swift */; };
 		B15272A32721FCE0004A9666 /* BreweryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15272A22721FCE0004A9666 /* BreweryView.swift */; };
 		B15272A62721FE38004A9666 /* BreweriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15272A52721FE38004A9666 /* BreweriesViewModel.swift */; };
-		B1CC378827228C6100765C55 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = B1CC378727228C6100765C55 /* Data.json */; };
+		B1CC378827228C6100765C55 /* TestData.json in Resources */ = {isa = PBXBuildFile; fileRef = B1CC378727228C6100765C55 /* TestData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,7 @@
 		B15272A02721F9BB004A9666 /* BreweriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweriesView.swift; sourceTree = "<group>"; };
 		B15272A22721FCE0004A9666 /* BreweryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryView.swift; sourceTree = "<group>"; };
 		B15272A52721FE38004A9666 /* BreweriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweriesViewModel.swift; sourceTree = "<group>"; };
-		B1CC378727228C6100765C55 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		B1CC378727228C6100765C55 /* TestData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TestData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,7 +166,7 @@
 		B1CC378627228C2700765C55 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				B1CC378727228C6100765C55 /* Data.json */,
+				B1CC378727228C6100765C55 /* TestData.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 			files = (
 				B152727A2721F79A004A9666 /* Preview Assets.xcassets in Resources */,
 				B15272772721F79A004A9666 /* Assets.xcassets in Resources */,
-				B1CC378827228C6100765C55 /* Data.json in Resources */,
+				B1CC378827228C6100765C55 /* TestData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
