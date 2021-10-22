@@ -16,10 +16,13 @@ struct BreweryView: View {
     var body: some View {
         HStack {
             VStack(alignment: .leading, spacing: 15) {
-                Text(brewery.name)
-                    .font(.system(size: 18))
-                    .foregroundColor(Color.blue)
-                Text("\(brewery.city) - \(brewery.street)")
+                HStack {
+                    Text(String(brewery.id))
+                    Text(brewery.title)
+                        .font(.system(size: 18))
+                        .foregroundColor(Color.blue)
+                }
+                Text("\(brewery.body)")
                     .font(.system(size: 14))
             }
         }

@@ -9,12 +9,11 @@ import SwiftUI
 
 struct BreweriesView: View {
     @ObservedObject var viewModel = BreweriesViewModel()
-    //let breweries = [Brewery]()
     var body: some View {
         NavigationView {
-            List(viewModel.breweries, id: \.self) {
+            List(viewModel.breweries) {
                 BreweryView(brewery: $0)
-            }.navigationBarTitle("Breweries")
+            }.navigationBarTitle("Posts")
                 .onAppear {
                     self.viewModel.fetchBreweries()
             }

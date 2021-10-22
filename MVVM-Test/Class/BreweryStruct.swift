@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Brewery: Decodable, Hashable {
-    let name: String
-    let street: String
-    let city: String
+struct Brewery: Decodable, Hashable, Identifiable {
+    let id: Int
+    let title: String
+    let body: String
 }
