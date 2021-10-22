@@ -2,21 +2,25 @@
     {
         "name": "Wurst",
         "street": "Team Lead",
-        "city": "john@gmail.com"
+        "city": "john@gmail.com",
+        "blub": "wurst"
    },
     {
         "name": "Maria",
         "street": "Project Lead",
-        "city": "maria@gmail.com"
+        "city": "maria@gmail.com",
+        "blub": "wurst"
    },
     {
         "name": "Martha",
         "street": "Trainee",
-        "city": "martha@gmail.com"
+        "city": "martha@gmail.com",
+        "blub": "wurst"
    },
     {
         "name": "Susan",
         "street": "CEO",
-        "city": "susan@gmail.com"
+        "city": "susan@gmail.com",
+        "blub": "wurst"
    }
 ]
