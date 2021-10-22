@@ -15,10 +15,6 @@ struct BreweryView: View {
     
     var body: some View {
         HStack {
-            Image(uiImage: UIImage(named: "beer")!)
-                .resizable()
-                .scaledToFit()
-                .frame(width: 80, height: 80)
             VStack(alignment: .leading, spacing: 15) {
                 Text(brewery.name)
                     .font(.system(size: 18))

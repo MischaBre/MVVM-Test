@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Wurst",
+        "street": "Team Lead",
+        "city": "john@gmail.com"
+   },
+    {
+        "name": "Maria",
+        "street": "Project Lead",
+        "city": "maria@gmail.com"
+   },
+    {
+        "name": "Martha",
+        "street": "Trainee",
+        "city": "martha@gmail.com"
+   },
+    {
+        "name": "Susan",
+        "street": "CEO",
+        "city": "susan@gmail.com"
+   }
+]
