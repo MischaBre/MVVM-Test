@@ -15,7 +15,7 @@ class BreweriesViewModel: ObservableObject {
     @Published var breweries: [Brewery] = []
     
     func fetchBreweries() {
-        //guard let url = Bundle.main.url(forResource: "Data", withExtension: "json")
+        //guard let url = Bundle.main.url(forResource: "TestData", withExtension: "json")
         //            else {
         //                print("Json file not found")
         //                return
